@@ -1,0 +1,24 @@
+@{
+    ViewBag.Title = "";
+}
+
+<head>
+    <title></title>
+    @Styles.Render("~/bundles/css")
+    @Scripts.Render("~/bundles/jquery")
+    @Scripts.Render("~/bundles/jqueryval")
+    @Scripts.Render("~/bundles/require")
+    @Scripts.Render("~/bundles/bootstrap")
+    @Scripts.Render("~/bundles/ckeditor")
+</head>
+
+<body>
+<div class="header">
+</div>
+<div class="not-header">
+    <ul class="nav">
+        <li><img src="~/app/assets/img/ninja-cookie.png" alt="home"/> </li>
+    </ul>
+    <div class="content" ng-view></div>
+</div>
+</body>
