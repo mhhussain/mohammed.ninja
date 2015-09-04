@@ -16,7 +16,7 @@ namespace mohammed.ninja.web
             bundles.Add(
                 new ScriptBundle("~/bundles/require")
                 .Include("~/Scripts/require.js",
-                "~/AngularApp/app/RequireConfig.js"));
+                "~/app/RequireConfig.js"));
 
             bundles.Add(
                 new ScriptBundle("~/bundles/angular")

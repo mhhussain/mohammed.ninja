@@ -218,12 +218,8 @@
   <ItemGroup>
     <Content Include="app\app.js" />
     <Content Include="app\assets\img\ninja-cookie.png" />
-    <Content Include="app\components\home\homeDetailView.html" />
-    <Content Include="app\components\home\homeView.html" />
+    <Content Include="app\components\home\home.html" />
     <Content Include="app\components\home\homeController.js" />
-    <Content Include="app\components\home\homeDetailController.js" />
-    <Content Include="app\components\home\SampleController.js" />
-    <Content Include="app\components\home\SampleView.html" />
     <Content Include="app\RequireConfig.js" />
     <Content Include="app\shared\ckEditor.js" />
     <Content Include="app\assets\img\cool-loading-animated-gif-3.gif" />
@@ -233,6 +229,7 @@
     <Content Include="Content\css\AddEditActivityModal.css" />
     <Content Include="Content\css\bootstrap.css" />
     <Content Include="Content\css\bootstrap.min.css" />
+    <Content Include="Content\css\home.css" />
     <Content Include="Content\css\Index.css" />
     <Content Include="Content\font-awesome.css" />
     <Content Include="Content\font-awesome.min.css" />

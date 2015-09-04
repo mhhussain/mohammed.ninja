@@ -1,0 +1,49 @@
+﻿html, body {
+	height: 100%;
+	padding: 0;
+	margin: 0;
+}
+
+.home-view div {
+	height: 49.5%;
+	width: 49.5%;
+	float: left;
+}
+
+.home-view .home-top-left {
+	background: black;
+	text-align: right;
+	margin-right: 2px;
+	margin-bottom: 2px;
+}
+
+.home-view .top-left-label {
+	position: absolute;
+	bottom: 50%;
+	left: 45%;
+}
+
+.home-view .home-top-right {
+	background: red;
+	margin-left: 2px;
+	margin-bottom: 2px;
+}
+
+.home-view .top-right-label {
+	position: absolute;
+	bottom: 50%;
+	right: 46.4%;
+}
+
+.home-view .home-bottom-left {
+	background: green;
+	text-align: right;
+	margin-top: 2px;
+	margin-right: 2px;
+}
+
+.home-view .home-bottom-right {
+	background: gainsboro;
+	margin-top: 2px;
+	margin-left: 2px;
+}

@@ -12,7 +12,7 @@
         'angular-route': "../Scripts/angular-route.min",
         'moment': "../Scripts/moment.min",
         'lodash': "../Scripts/lodash.min",
-        'componentsPath': "app/components"
+        'componentsPath': "components"
     },
 
     //setting up dependencies for the resources in paths
@@ -32,6 +32,6 @@
 
 //require() is how we actually load and use our modules
 //in our case, our main logic is in app.js
-require(["app/app"], function(app) {
+require(["app"], function(app) {
     app.init();
 })
