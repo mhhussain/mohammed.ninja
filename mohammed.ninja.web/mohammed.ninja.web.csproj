@@ -226,7 +226,6 @@
     <Content Include="app\assets\img\X-by-2-Logo.png" />
     <Content Include="app\Repository\BaseRepository.js" />
     <Content Include="app\Repository\testRepository.js" />
-    <Content Include="Content\css\AddEditActivityModal.css" />
     <Content Include="Content\css\bootstrap.css" />
     <Content Include="Content\css\bootstrap.min.css" />
     <Content Include="Content\css\home.css" />
@@ -238,7 +237,6 @@
     <Content Include="fonts\fontawesome-webfont.svg" />
     <Content Include="Global.asax" />
     <Content Include="Content\css\Site.css" />
-    <Content Include="Content\css\Calendar.css" />
     <Content Include="Scripts\angular-animate.js" />
     <Content Include="Scripts\angular-animate.min.js" />
     <Content Include="Scripts\angular-aria.js" />
@@ -638,6 +636,7 @@
     <Content Include="fonts\fontawesome-webfont.ttf" />
     <Content Include="fonts\fontawesome-webfont.eot" />
     <Content Include="fonts\FontAwesome.otf" />
+    <None Include="Properties\PublishProfiles\mninja-server.pubxml" />
     <None Include="Scripts\jquery-1.10.2.intellisense.js" />
     <Content Include="Scripts\i18n\angular-locale_aa-dj.js" />
     <Content Include="Scripts\i18n\angular-locale_aa-er.js" />
@@ -1408,6 +1407,7 @@
     </Content>
     <Content Include="Scripts\jquery-1.10.2.min.map" />
     <Content Include="Scripts\version.json" />
+    <Content Include="Views\StartSpa\Index.cshtml" />
     <None Include="Web.QA.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
@@ -1419,7 +1419,6 @@
     <Folder Include="App_Data\" />
     <Folder Include="logs\" />
     <Folder Include="Scripts\controllers\" />
-    <Folder Include="Views\StartSpa\" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="Content\fonts\glyphicons-halflings-regular.woff" />

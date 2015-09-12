@@ -1,10 +1,28 @@
 ﻿<div class="home-view">
-	<div class="home-top-left">
-		<label class="top-left-label">world</label>
-	</div>
-	<div class="home-top-right">
-		<label class="top-right-label">hello</label>
-	</div>
-	<div class="home-bottom-left">oh em</div>
-	<div class="home-bottom-right">geeeeee</div>
+    <div class="container animate-show" id="info-page" ng-show="!x">
+        <div class="the-who">
+            <h1 class="question">Who are you?</h1>
+            <br/>
+
+            <input type="text" placeholder="monster" ng-model="who" ng-keydown="$event.which === 13 && run()"/>
+        </div>
+    </div>
+    <div class="container animate-show" id="but-the-page" ng-show="x">
+        <div class="section top right">
+            <div class="top-right"></div>
+        </div>
+        <div class="section top left">
+            <div class="top-left"></div>
+        </div>
+        <div class="section bottom right">
+            <div class="bottom-right">
+                <h1 class="butter-cup butter-cup-position">butterrcupppppp</h1>
+            </div>
+        </div>
+        <div class="section bottom left">
+            <div class="bottom-left">
+                <h1 class="oh-hi oh-hi-position">Oh hi.</h1>
+            </div>
+        </div>
+    </div>
 </div>

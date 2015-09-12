@@ -3,16 +3,18 @@
     define([
             "angular",
             "angular-route",
+            "angular-animate",
             "componentsPath/home/homeController",
             "shared/ckEditor"
         ],
         function(
             angular,
             angularRoute,
+            angularAnimate,
             homeController,
             ckEditor) {
 
-            var myApp = angular.module("myApp", ["ngRoute"]);
+            var myApp = angular.module("myApp", ["ngRoute", "ngAnimate"]);
 
             //ckeditor
             myApp.directive("ckEditor", ckEditor);

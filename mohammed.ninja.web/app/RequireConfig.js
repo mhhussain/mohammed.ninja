@@ -9,6 +9,7 @@
     //  or 'componentsPath/home/phoneDetailCtrl' instead of 'app/components/home/phoneDetailCtrl
     paths: {
         'angular': "../Scripts/angular.min",
+        'angular-animate': "../Scripts/angular-animate.min",
         'angular-route': "../Scripts/angular-route.min",
         'moment': "../Scripts/moment.min",
         'lodash': "../Scripts/lodash.min",
@@ -25,6 +26,10 @@
 
         //sets angular as a dependency for angular-route to ensure angular loads before angular-route
         'angular-route': {
+            deps: ["angular"]
+        },
+
+        "angular-animate": {
             deps: ["angular"]
         }
     }
