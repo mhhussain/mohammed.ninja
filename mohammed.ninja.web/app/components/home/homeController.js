@@ -22,6 +22,10 @@
                         $scope.x = true;
                     }
                 };
+
+                $scope.answer = function() {
+                    $scope.page = "youagain";
+                };
             };
 
             return homeController;

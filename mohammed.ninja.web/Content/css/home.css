@@ -185,3 +185,10 @@
     opacity: 1;
     transition: all 1s;
 }
+
+.say-hi {
+    position: relative;
+    text-align: center;
+    width: 100%;
+    top: 30%;
+}

@@ -1,5 +1,5 @@
 ﻿<div class="home-view">
-    <div class="container animate-show" id="info-page" ng-show="!x">
+    <div class="container animate-show" id="info-page" ng-show="page == 'something'">
         <div class="the-who">
             <h1 class="question">Who are you?</h1>
             <br/>
@@ -7,12 +7,12 @@
             <input type="text" placeholder="monster" ng-model="who" ng-keydown="$event.which === 13 && run()"/>
         </div>
     </div>
-    <div class="container animate-show" id="but-the-page" ng-show="x">
+    <div class="container animate-show" id="but-the-page" ng-show="page == 'awesome'">
         <div class="section top right">
             <div class="top-right"></div>
         </div>
         <div class="section top left">
-            <div class="top-left"></div>
+            <div class="top-left" ng-click="answer()"></div>
         </div>
         <div class="section bottom right">
             <div class="bottom-right">
@@ -23,6 +23,11 @@
             <div class="bottom-left">
                 <h1 class="oh-hi oh-hi-position">Oh hi.</h1>
             </div>
+        </div>
+    </div>
+    <div class="container animate-show" id="hello-page" ng-show="page == 'youagain'">
+        <div class="say-hi">
+            <h1 class="answer">{{ "hello " + who.toLowerCase() + "." }}</h1>
         </div>
     </div>
 </div>
