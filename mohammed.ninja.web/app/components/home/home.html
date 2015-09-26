@@ -16,7 +16,7 @@
         </div>
         <div class="section bottom right">
             <div class="bottom-right">
-                <h1 class="butter-cup butter-cup-position">butterrcupppppp</h1>
+                <h1 class="butter-cup butter-cup-position">dont make me adult today</h1>
             </div>
         </div>
         <div class="section bottom left">
@@ -28,6 +28,13 @@
     <div class="container animate-show" id="hello-page" ng-show="page == 'youagain'">
         <div class="say-hi">
             <h1 class="answer">{{ "hello " + who.toLowerCase() + "." }}</h1>
+        </div>
+    </div>
+    <div class="container animate-show" id="cookies" ng-show="page == 'cookie'">
+        <div class="the-picture">
+            <div class="row" ng-class="'row' + ($index + 1)" ng-repeat="n in [1, 2, 3, 4] track by $index">
+                <div class="col" ng-class="'col' + ($index + 1)" ng-repeat="n in [1, 2, 3, 4, 5] track by $index"></div>
+            </div>
         </div>
     </div>
 </div>

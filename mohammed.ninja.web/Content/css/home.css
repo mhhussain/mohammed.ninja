@@ -83,7 +83,7 @@
 }
 
 .top-right:active {
-    background-color: red;
+    background-color: purple;
     transition: background-color 1s;
 }
 
@@ -192,3 +192,43 @@
     width: 100%;
     top: 30%;
 }
+
+.the-picture {
+    background-image: url("../images/cookie-monster.jpg");
+    height: 100%;
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.row {
+    display: block;
+    position: absolute;
+    height: 24.9%;
+    width: 100%;
+}
+
+.col {
+    display: inline-block;
+    position: absolute;
+    height: 100%;
+    width: 19.9%;
+    background-color: gainsboro;
+    opacity: 0.95;
+}
+
+.row1 { top: 0; }
+.row2 { top: 25%; }
+.row3 { top: 50%; }
+.row4 { top: 75%; }
+
+.col1 { left: 0; transition: opacity 3s; }
+.col1:hover { opacity: 0; transition: opacity, 0.1s; }
+.col2 { left: 20%; transition: opacity 3s; }
+.col2:hover { opacity: 0; transition: opacity, 0.1s; }
+.col3 { left: 40%; transition: opacity 3s; }
+.col3:hover { opacity: 0; transition: opacity, 0.1s; }
+.col4 { left: 60%; transition: opacity 3s; }
+.col4:hover { opacity: 0; transition: opacity, 0.1s; }
+.col5 { left: 80%; transition: opacity 3s; }
+.col5:hover { opacity: 0; transition: opacity, 0.1s; }

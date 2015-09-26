@@ -17,6 +17,11 @@
                 $scope.x = false;
 
                 $scope.run = function () {
+                    if ($scope.who === "cookies") {
+                        $scope.page = "cookie";
+                        return;
+                    }
+
                     if ($scope.who.length > 0) {
                         $scope.page = "awesome";
                         $scope.x = true;
